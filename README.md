@@ -1,7 +1,8 @@
 # RP6502 VSCode Scaffolding
 
-This is scaffolding for your new Picocomputer software project. These
-instructions are for Linux distributions that uses apt. A Windows install is
+This is VSCode/Github scaffolding for your new Picocomputer software project provided by Rumbledethumps creator of The Picocomputer 6502 (rp6502). 
+
+These instructions are for Linux distributions that uses apt. A Windows install is
 demonstrated in a [video by Lee Smith](https://www.youtube.com/watch?v=zJpz16XDL9c&t=1535s).
 MacOS requires translating the apt-get to a package manager like brew or port.
 
