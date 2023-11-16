@@ -4,11 +4,13 @@ project(MY-RP6502-PROJECT C ASM)
 
 add_subdirectory(rp6502-sdk)
 
-add_executable(hello)
-rp6502_executable(hello)
-target_sources(hello PRIVATE
-    src/hello.c
+add_executable(tetricks)
+rp6502_executable(tetricks)
+target_sources(tetricks PRIVATE
+    src/tetricks.c
+    src/bitmap_graphics.c
 )
-target_link_libraries(hello PRIVATE
+target_link_libraries(tetricks PRIVATE
     rp6502
 )
+
