@@ -264,7 +264,7 @@ static void draw_background()
 static void draw_shape(uint8_t shape, uint8_t rotation, uint16_t x, uint16_t y)
 {
     uint8_t i;
-//    printf("draw_shape(x=%u, y=%u)\n", x, y);
+    printf("draw_shape(x=%u, y=%u)\n", x, y);
     for (i = 0; i < 16; i++) {
         if (1<<i & shapes[shape].blocks[rotation]) {
             uint8_t row = ((i>11)?1:0) + ((i>7)?1:0) + ((i>3)?1:0);
